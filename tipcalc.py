@@ -15,3 +15,5 @@ def calculate_tip(bill_amount, tip_percentage):
 tip = calculate_tip(bill_amount, tip_percentage)
 
 print(f"The tip is ${tip}.")
+
+#args used to handle various differnt inputs
