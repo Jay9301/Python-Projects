@@ -1,5 +1,5 @@
 def calculate_tip(bill_amount, tip_percentage):
-  """Calculates the tip for a restaurant bill based on the total bill amount and the desired tip percentage.
+# Calculates the tip for the bill based on the following variables -  total bill amount and the desired tip percentage
 
   Args:
     bill_amount: The total bill amount.
@@ -11,11 +11,6 @@ def calculate_tip(bill_amount, tip_percentage):
 
   tip = bill_amount * tip_percentage / 100
   return tip
-
-# Example usage:
-
-bill_amount = 100
-tip_percentage = 20
 
 tip = calculate_tip(bill_amount, tip_percentage)
 
