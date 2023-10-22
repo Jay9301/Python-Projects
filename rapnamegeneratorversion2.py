@@ -2,37 +2,37 @@ import random
 
 def generate_rap_name(name, birthplace, favorite_animal, favorite_color, favorite_food, month_of_birth):
 
-  # Create a list of possible rap names
+  # list of possible rap names - same again
   possible_rap_names = []
 
-  # Add the person's name to the list
+  # person's name to the list - - same again
   possible_rap_names.append(name)
 
-  # Add the person's birthplace to the list
+  # where the person was born  - same again
   possible_rap_names.append(birthplace)
 
-  # Add the person's favorite animal to the list
+  # Add the person's favorite animal to the list - - same again
   possible_rap_names.append(favorite_animal)
 
-  # Add the person's favorite color to the list
+  # person's favorite color to the list - new to the list
   possible_rap_names.append(favorite_color)
 
-  # Add the person's favorite food to the list
+  # person's favorite food to the list - new to the list 
   possible_rap_names.append(favorite_food)
 
-  # Add the month of the person's birth to the list
+  # month of the person's birth to the list - same again
   possible_rap_names.append(month_of_birth)
 
-  # Shuffle the list
+  # Shuffle the list = same functio nas last time to randomise the lsit options
   random.shuffle(possible_rap_names)
 
-  # Combine the first three elements of the list to create the rap name
+  #  now the below will let me combine 3 elements instead of 2 for the final rap name
   rap_name = possible_rap_names[0] + " " + possible_rap_names[1] + " " + possible_rap_names[2]
 
   # Return the rap name
   return rap_name
 
-# Get the user's inputs
+# Get the user's inputs - based on below list
 name = input("Enter your name: ")
 birthplace = input("Enter your birthplace: ")
 favorite_animal = input("Enter your favorite animal: ")
