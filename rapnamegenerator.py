@@ -2,28 +2,28 @@ import random
 
 def generate_rap_name(name, birthplace, favorite_animal, month_of_birth):
 
-  # Create a list of possible rap names
+  # below creates a list of  rap names
   possible_rap_names = []
 
-  # Add the person's name to the list
+  # this will add the person's name to the list
   possible_rap_names.append(name)
 
-  # Add the person's birthplace to the list
+  # this wil add where they were born to the list
   possible_rap_names.append(birthplace)
 
-  # Add the person's favorite animal to the list
+  #  favorite animal to the list function below
   possible_rap_names.append(favorite_animal)
 
-  # Add the month of the person's birth to the list
+  #  month of the birth to the list
   possible_rap_names.append(month_of_birth)
 
-  # Shuffle the list
+  # the below mixes/shuffles up the list options
   random.shuffle(possible_rap_names)
 
-  # Combine the first two elements of the list to create the rap name
+  #  this will combine the first 2 elements of the list to create the rap name for the person
   rap_name = possible_rap_names[0] + " " + possible_rap_names[1]
 
-  # Return the rap name
+  # this is the retun function so it goes back
   return rap_name
 
 # Get the user's inputs
