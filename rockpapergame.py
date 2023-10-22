@@ -27,7 +27,7 @@ while True:
     play_again = input("Play again? (y/n): ")
     if play_again.lower() != "y":
         break
-
+print ("Thanks for playing!")
     
 #random.choice returns random element of the sequence
 #the possible_actions list contains the strings "rock", "paper", and "scissors". So, the random.choice() function will randomly select one of those three strings I have made and assign it to the computer_action variable. 
