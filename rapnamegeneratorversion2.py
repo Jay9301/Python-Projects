@@ -32,13 +32,13 @@ def generate_rap_name(name, birthplace, favorite_animal, favorite_color, favorit
   # Return the rap name
   return rap_name
 
-# Get the user's inputs - based on below list
+# get user info based on the below inputs only
 name = input("Enter your name: ")
-birthplace = input("Enter your birthplace: ")
-favorite_animal = input("Enter your favorite animal: ")
-favorite_color = input("Enter your favorite color: ")
-favorite_food = input("Enter your favorite food: ")
-month_of_birth = input("Enter your month of birth: ")
+where they are born = input("Enter your birthplace: ")
+favorite animal = input("Enter your favorite animal: ")
+favorite color = input("Enter your favorite color: ")
+favorite food = input("Enter your favorite food: ")
+month born = input("Enter your month of birth: ")
 
 # Generate the rap name
 rap_name = generate_rap_name(name, birthplace, favorite_animal, favorite_color, favorite_food, month_of_birth)
