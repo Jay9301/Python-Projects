@@ -1,0 +1,31 @@
+def mad_libs():
+  """ Gets the person to fill in a Mad Libs story and then prints the completed story."""
+
+  # Create a list to store inputs
+  words = []
+
+  # Prompt the person words to fill in the story,  but this time I have added in example of adjectives and nouns to guide the user
+  print("Enter the following words to fill in the story:")
+  print("Adjective (e.g., big, small, happy, sad):")
+  words.append(input())
+  print("Noun (e.g., person, animal, thing, place):")
+  words.append(input())
+  print("Verb (e.g., running, jumping, swimming, eating):")
+  words.append(input())
+  print("Place (e.g., park, school, home, zoo):")
+  words.append(input())
+
+  # my story template below.
+  story = """
+  The {adjective} {noun} was {verbing} in the {place}.
+  """
+
+  # Replace the placeholder words in the story template with the inouts the user selected
+  completed_story = story.format(adjective=words[0], noun=words[1], verbing=words[2], place=words[3])
+
+  # Print the completed story.
+  print(completed_story)
+
+
+# below function starts the game
+mad_libs()
