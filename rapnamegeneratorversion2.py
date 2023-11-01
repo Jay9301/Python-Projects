@@ -2,7 +2,7 @@ import random
 
 def generate_rap_name(name, birthplace, favorite_animal, favorite_color, favorite_food, month_of_birth):
 
-  # list of possible rap names - same again
+  # list of possible rap names - same again 
   possible_rap_names = []
 
   # person's name to the list - - same again
