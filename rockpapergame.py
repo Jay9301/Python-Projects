@@ -1,5 +1,5 @@
 import random
-
+# below is all the different options for winning and losing
 while True:
     user_action = input("Enter a choice (rock, paper, scissors): ")
     possible_actions = ["rock", "paper", "scissors"]
@@ -10,7 +10,7 @@ while True:
         print(f"Both players selected {user_action}. It's a tie!")
     elif user_action == "rock":
         if computer_action == "scissors":
-            print("Rock smashes scissors! You win!")
+            print("Rock smashes scissors!  Congrats You win!")
         else:
             print("Paper covers rock! You lose.")
     elif user_action == "paper":
