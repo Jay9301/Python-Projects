@@ -5,7 +5,7 @@ def generate_rap_name(name, birthplace, favorite_animal, month_of_birth):
   # below creates a list of  rap names
   possible_rap_names = []
 
-  # this will add the person's name to the list
+  # this will add the person's name to the list 
   possible_rap_names.append(name)
 
   # this wil add where they were born to the list
