@@ -1,7 +1,7 @@
 def mad_libs():
   """ this prompts the person for words to fill in the sotry and then prints the completed story after."""
 
-  # Create a list to store the person's choices
+  # Create a list to store the person's choices on the below inputs
   words = []
 
   # Below commands promots the person for words to fill in the story.
