@@ -1,7 +1,7 @@
 def mad_libs():
   """ Gets the person to fill in a Mad Libs story and then prints the completed story."""
 
-  # Create a list to store inputs
+  #  below is a list to store all my inputs
   words = []
 
   # Prompt the person words to fill in the story,  but this time I have added in example of adjectives and nouns to guide the user
