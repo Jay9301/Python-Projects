@@ -6,7 +6,7 @@ def generate_random_number():
 def play_number_guessing_game():
   """Plays a number guessing game with the user.
 
-  The user has 5 guesses to guess a randomly generated number between 1 and 10.
+  The user has 5 guesses to guess a randomly generated number between 1 and 10. But this can be changed to whatever number by chaing the code at the top. 
   """
 
   # below will create a random number 
@@ -25,21 +25,21 @@ def play_number_guessing_game():
 
     #  the below code will confirm if the guess is correct or not
     if guess == random_number:
-      print("You guessed correctly! Congratulations!")
+      print("You guessed correctly! Congrats!")
       break
 
     # Check if the guess is too high/low - help the end user 
     elif guess > random_number:
-      print("Your guess is too high.")
+      print("Your guess is too high, try again.")
     else:
-      print("Your guess is too low.")
+      print("Your guess is too low, try again.")
 
     # Increment the number of guesses
     number_of_guesses += 1
 
   # If the user runs out of guesses, the below code will tell the user the correct answer
   if number_of_guesses == 5:
-    print("You ran out of guesses. The correct answer was", random_number)
+    print("Sorry, but you have ran out of guesses. The correct answer was", random_number)
 
 # Play the game
 play_number_guessing_game()
