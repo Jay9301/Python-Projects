@@ -1,0 +1,23 @@
+import random
+
+# Function to flip a coin
+def flip_coin():
+  """Flips a coin and returns the result.
+
+  Returns:
+    A string, either "heads" or "tails".
+  """
+  coin_flip = random.randint(0, 1)
+  if coin_flip == 0:
+    return "Heads!"
+  else:
+    return "Tails!"
+
+# Main function
+def main():
+  """Simulates flipping a coin and prints the result."""
+  coin_flip_result = flip_coin()
+  print("You flipped...... {}.".format(coin_flip_result))
+
+if __name__ == "__main__":
+  main()
