@@ -1,5 +1,5 @@
 import random
-
+ 
 # Function to flip a coin
 def flip_coin():
   """Flips a coin and returns the result.
