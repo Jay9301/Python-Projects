@@ -2,7 +2,7 @@ import random
 
 def welcome():
     """Welcomes the player to the game and asks for their name."""
-    print("Welcome to the English Premier League Hangman game!")
+    print("Welcome to the English Premier League 2023 Hangman game!")
 
 
 def get_word():
@@ -59,7 +59,7 @@ def play_game():
         check_guess(guess, secret_word, missed_letters, correct_letters)
 
     if len(missed_letters) == 7:
-        print(f"You ran out of guesses which means you Lost!..... The team was {secret_word}.")
+        print(f"Oh no, you ran out of guesses which means you Lost!..... The team was {secret_word}.")
     else:
         print(f"Congrats! You guessed the team {secret_word}!")
 
