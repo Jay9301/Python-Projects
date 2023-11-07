@@ -1,4 +1,4 @@
-import random
+import random 
 
 def welcome():
     """Welcomes the player to the game and asks for their name."""
